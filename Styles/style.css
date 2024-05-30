@@ -267,8 +267,9 @@ img{
 }
 
 .home__img{
-  width: 300px;
+  width: 200px;
   justify-self: center;
+  border-radius: 100%;
 }
 
 /*========== BUTTONS ==========*/
@@ -281,7 +282,7 @@ img{
   transition: .3s;
 }
 
-.button:hover{
+.button:over{
   background-color: var(--first-color-alt);
 }
 
